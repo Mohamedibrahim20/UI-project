@@ -1,0 +1,551 @@
+.sw
+{
+  height: 700px;
+  background-color: #0099cc;
+}
+.home{
+    background-image: url(../images/Rectangle.png);
+    background-size: 100% 100%;
+    height: 700px;
+}
+.img-home
+{
+  max-width: 100%;
+  height: 550px;
+    transform: scale(1.5) ;
+}
+.navbar ul{
+
+        font-size: 21px;
+        font-family: "Bebas Neue";
+        color: rgb(61, 37, 20) !important;
+        font-weight: bold;
+        line-height: 2;
+        letter-spacing: 5px;     
+        cursor:  pointer !important;
+        z-index: 9999;
+}
+.phone {
+   
+    font-size: 16.667px;
+    font-family: "Montserrat";
+    color: rgb(61, 37, 20);
+    font-weight: bold;
+    line-height: 4.25;
+    position: absolute;
+    right: 1%;
+   top:20%;
+    
+    
+  }
+  
+  .meal-subtitle {
+
+    border: dashed 2px rgb(61, 37, 20)   ; 
+    width: 100%;
+    height: 46px;
+    
+  }
+  
+  
+  .meal-tittle
+  {
+    
+        font-size: 20px;
+        font-family: "Bebas Neue";
+        color: rgb(61, 37, 20);
+        line-height: 2.2;
+      
+      
+  }
+ .meal-subtitle h1
+ {
+    
+        font-size: 80.5px;
+        font-weight: 1000;
+        font-family: "AlfaSlabOne";
+        color: rgb(61, 37, 20);
+        
+        line-height: .75;
+        
+        text-shadow: 1.9px .9px  #f8f8f8;
+  
+      
+ }
+ .meal-subtitle h2 {
+    font-size: 50px;
+    font-family: "AlfaSlabOne";
+    font-weight: 600;
+    color: rgb(61, 37, 20);
+    line-height: 1.093;
+    text-shadow: 1.9px .9px  #f8f8f8;
+   
+  }
+  .price {
+
+    background-color: rgba(207, 0, 15, 1);
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 15%;
+    bottom: 13%;
+    
+    
+   
+ 
+ 
+  }
+  /* border dash */
+  #price-border
+  {
+    border: dashed 2px #fff   ; 
+    width: 110px;
+    height: 110px;
+   
+  }
+  .price h4 , #only{
+    font-size: 20.7px;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255);
+
+
+  }
+  #le
+  {
+    font-size: 50px;
+  }
+  #price{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+  }
+  
+ /* ------------------------------------------------menu sction------------------- */
+ .meal-text
+ {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top:30px;
+     left:5%;
+     background-color: transparent;
+     
+ }
+ .meal-text h5 {
+    font-size: 24px;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0;
+    
+    
+  }
+  .meal-text h3 {
+    font-size: 40px;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+  }
+  .btn
+  {
+   
+        font-size: 20px;
+        font-family: "Bebas Neue";
+        color: rgb(61, 37, 20);
+        font-weight: bold;
+        line-height: 1.5;
+  }
+/*----------------------------------------------------- our Story-------------------------------------------- */
+.ourstory-title h1 {
+  font-size: 50px;
+  font-family: "AlfaSlabOne";
+  font-weight: bold;
+  color: rgb(61, 37, 20);
+  
+ 
+}
+.ourstory-title p {
+  font-size: 16.667px;
+  font-family: "Montserrat";
+  color: rgb(61, 37, 20);
+
+  
+}
+/* ---------------------------------------------meals order----------------------------------------------------------- */
+#title {
+
+    font-size: 28.5px;
+    font-family: "Bebas Neue";
+    color: rgb(61, 37, 20);
+    font-weight: bold;
+    
+ 
+}
+/*-------------------------------------------------- image shadow--------------------  */
+.meal-img{
+  position: relative;
+}
+.meal-img:after {
+    content: "";
+   position: absolute;
+   width: 90%;
+   height: 10px;
+   left: 0%;
+   bottom: 0%;
+   border-radius: 60%;
+   box-shadow: 20px 25px 15px 4px grey;
+}
+#description {
+
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(61, 37, 20);
+  line-height: 1.25;
+ 
+ 
+}
+
+#link{
+  font-size: 16.667px;
+  font-family: "AlfaSlabOne";
+  line-height: 1.8;
+}
+
+/*------------------------------------------------------coming meals-----------------------------------------------  */
+.about-comingmeal h6 {
+  font-size: 24px;
+  font-family: "Bebas Neue";
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  line-height: 10px;
+  
+  
+}
+.about-comingmeal h1 {
+ 
+    font:30px;
+   font-family: "AlfaSlabOne";
+    color: rgb(61, 37, 20);
+    font-weight: bolder;
+    text-shadow: .3px .6px rgb(61, 37, 20);
+    
+
+}
+.about-comingmeal p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(61, 61, 61);
+ 
+  line-height: 1.6;
+
+  
+}
+.circle
+{
+  background-color: rgba(207, 0, 15, 1);
+  height: 14px;
+  width: 14px;
+  background-color: rgb(255, 192, 69);
+}
+/* circle color */
+#grey
+{
+  background-color: rgb(220, 220, 220);
+}
+/* ---------------------------------------------contact us------------------------------------------------ */
+
+.contact{
+  background-image: url(../images/Image@1.5x.png);
+  background-size: 100% 100%;
+}
+
+.contact h6 {
+  font-size: 29px;
+  font-family: "Bebas Neue";
+  color: rgb(61, 37, 20);
+  font-weight: bold;
+  line-height: .5;
+
+ 
+}
+.contact h1 {
+  font-size: 50px;
+  font-family: "AlfaSlabOne";
+  color: rgb(61, 37, 20);
+  text-shadow: .3px .6px rgb(61, 37, 20);
+  font-weight: bolder;
+ 
+
+}
+/* -----------------------------------------------------------resturant locations---------------------------------------------------------  */
+.resturant-img 
+{
+  background-image: url(../images/Place\ Your\ Design\ Here\ \(Double\ Click\ to\ Edit\)@1.5x.png);
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+.about-resturant{
+
+ background-color: transparent !important;
+ position: absolute;
+
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+
+}
+.about-text p{
+
+    font-size: 16.667px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+/* location & email icons */
+
+#icons
+{
+ width: 20px;
+}
+.icons span
+{
+    font-size: 16px;
+    font-family: "Bebas Neue";
+    font-weight: normal;
+  
+}
+.copyrights
+{
+  
+  position: absolute;
+  bottom: 0%;
+ 
+  
+    color: rgb(255, 255, 255);
+    width: 50%;
+    text-align: start;
+
+
+}
+.copyrights p
+{
+  font-size: 14.7px;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+/* social icons */
+#social-icons
+{
+  background-color: #f9f9f9;
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  
+}
+.social-icons
+{
+  bottom: 20px;
+  right: 22px;
+  position: absolute;
+  width: 130px;
+}
+
+
+
+  
+/* --------------------------------------------------------------- @media query------------------------------------------------------------------------------- */
+
+/* Extra Small */
+@media(max-width:767px){
+  /* section one */
+  .price {
+
+   
+    width: 80px;
+    height: 80px;
+    left: 8%;
+    bottom: 13%;
+ 
+  }
+  /* border dash */
+  #price-border
+  {
+    border: dashed 2px #fff   ; 
+    width: 70px;
+    height: 70px;
+   
+  }
+  #le
+  {
+    font-size: 30px;
+  }
+  .price h4 , #only{
+    font-size: 12.7px !important;
+    font-family: "Bebas Neue";
+    color: rgb(255, 255, 255);
+
+
+  }  
+  .img-home
+  {
+    max-width: 100%;
+    height: 400px;
+ 
+  }
+  .meal-tittle
+  {     
+        margin: 5px;
+        font-size: 12px;
+       
+  }
+ .meal-subtitle h1
+ {
+        line-height: normal;
+        font-size: 50.5px;
+        font-weight: 500;
+        margin-top: 20px;
+      
+ }
+ .meal-subtitle h2 {
+  
+    font-size: 40px;
+    font-weight: 400;
+  } 
+ .meal-caption {
+
+   width: 50%;
+ 
+ }
+ .home-img img
+  {
+   width: 50%;
+  
+  }
+  /* menu */
+  .menu
+  {
+    width: 90%;
+    margin: auto;
+  }
+  .meal-text h5  {
+    font-size: 16px;
+
+  }
+  .meal-text h3  {
+    font-size: 19px;
+
+  }
+  
+/* meals order section */
+#title {
+
+  font-size: 20.5px;
+}
+#description
+  {
+    font-size: 16px;
+  }
+  /* resturant location */
+
+  .about-text p {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    font-size: 12.7px;
+    }
+  .logo
+  {
+   padding-top: 5px !important;
+  }
+  .copyrights p
+{
+  font-size: 12.7px;
+  font-family: "Bebas Neue";
+  font-weight: normal;
+ 
+}
+  
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+  .price {
+
+   
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    bottom: 13%;
+ 
+  }
+   /* border dash */
+   #price-border
+   {
+     border: dashed 2px #fff   ; 
+     width: 85px;
+     height: 85px;
+    
+   }
+   #le
+   {
+     font-size: 30px;
+   }
+   .price h4 , #only{
+     font-size: 12.7px !important;
+     font-family: "Bebas Neue";
+     color: rgb(255, 255, 255);
+ 
+ 
+   }  
+   .meal-caption {
+    
+    width: 50%;
+  
+  }
+  .home-img img
+   {
+    width: 50%;
+
+   }
+  .meal-text h5  {
+    font-size: 16px;
+
+  }
+  .meal-text h3  {
+    font-size: 20px;
+    font-weight: bolder;
+
+  }
+
+ 
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1200px){
+  .meal-text h5  {
+    font-size: 16px;
+
+  }
+  .meal-text h3  {
+    font-size: 20px;
+    font-weight: bolder;
+
+  }
+  #title {
+
+    font-size: 20.5px;
+  }
+  
+  .home-img img
+   {
+    width: 50%;
+
+   }
+  
+  
+}
